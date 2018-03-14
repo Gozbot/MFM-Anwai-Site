@@ -1,7 +1,13 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
-  
-  .hgroup h1 {
-    font-size:
-  }
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .inner-header { font-size: 1.25rem}
 
+
+  .hgroup h1 { font-size: 100%;  }
+  .hgroup h2 { font-size: 90%; font-family: "Montserrat", 'Segoe UI', Verdana sans-serif;}
+  .hgroup h3 { font-size: 70%; }
+
+  .messages p { text-align: justify;}
+
+  .thanks { box-sizing: border-box; padding: 10px; }
 }
+
